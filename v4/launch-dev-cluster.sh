@@ -8,7 +8,8 @@ fi
 version=$1
 clusterDir=/home/rmarasch/workspace/openshift-install/openshift-utils/cluster-aws
 pullSecret=/home/rmarasch/workspace/openshift-install/openshift-utils/PULL_SECRET
-host=registry.svc.ci.openshift.org
+#host=registry.svc.ci.openshift.org
+host=registry.ci.openshift.org
 image=ocp/release
 
 rm -rf /tmp/openshift-release
